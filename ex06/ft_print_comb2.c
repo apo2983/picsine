@@ -6,7 +6,7 @@
 /*   By: ksaiga <ksaiga@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/25 10:45:38 by ksaiga            #+#    #+#             */
-/*   Updated: 2021/03/25 20:32:06 by ksaiga           ###   ########.fr       */
+/*   Updated: 2021/03/26 09:26:26 by ksaiga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,12 @@ void	ft_putchar(int l, int r, char *num)
 
 void	ft_print_comb2(void)
 {
-	char num[5];
-	int l;
-	int r;
+	char	num[5];
+	int		l;
+	int		r;
 
 	l = 0;
-	r = 0;
+	r = 1;
 	while (l <= 99)
 	{
 		while (r <= 99)

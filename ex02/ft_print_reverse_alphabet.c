@@ -6,7 +6,7 @@
 /*   By: ksaiga <ksaiga@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/24 15:22:44 by ksaiga            #+#    #+#             */
-/*   Updated: 2021/03/24 15:26:03 by ksaiga           ###   ########.fr       */
+/*   Updated: 2021/03/26 09:20:42 by ksaiga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,6 @@ void	ft_print_reverse_alphabet(void)
 	while (z >= 'a')
 	{
 		write(1, &z, 1);
-		z++;
+		z--;
 	}
 }
