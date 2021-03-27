@@ -6,7 +6,7 @@
 /*   By: ksaiga <ksaiga@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/26 17:00:58 by ksaiga            #+#    #+#             */
-/*   Updated: 2021/03/26 17:11:54 by ksaiga           ###   ########.fr       */
+/*   Updated: 2021/03/27 09:16:42 by ksaiga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ void	ft_putnbr(int nb)
 	char		num[20];
 
 	count = 0;
+	back_count = 0;
 	if (nb < 0)
 	{
 		ft_putchar('-');
